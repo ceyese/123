@@ -8,15 +8,15 @@ import random
 
 today = datetime.now()
 
-start_date = os.environ['START_DATE']
-city = os.environ['CITY']
-birthday = os.environ['BIRTHDAY']
+start_date = 2022-08-22['START_DATE']
+city = 成都['CITY']
+birthday = 06-16['BIRTHDAY']
 
-app_id = os.environ["APP_ID"]
-app_secret = os.environ["APP_SECRET"]
+app_id = wx13c79e8dee163f3a["APP_ID"]
+app_secret = c9279b6daba3ee60a61fc3714b2d702a["APP_SECRET"]
 
-user_id = os.environ["USER_ID"]
-template_id = os.environ["TEMPLATE_ID"]
+user_id = odZ3p6dCAlXhW0f7zFF1TrIfuWLA["USER_ID"]
+template_id = Y5QBsN6j7lyhDHoY36vbRztr2C6xOrb3sL_buxNyN0U["TEMPLATE_ID"]
 
 def get_date():
     print(today.strftime("%m-%d"))
